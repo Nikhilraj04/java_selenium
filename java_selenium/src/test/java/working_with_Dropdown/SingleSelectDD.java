@@ -71,17 +71,17 @@ for ex-
 	//perform the task
 	selSSDD.selectByIndex(3);
 	Thread.sleep(1000);
-	selSSDD.selectByValue("DXB");
+	selSSDD.selectByValue("uk");
 	Thread.sleep(1000);
-	selSSDD.selectByVisibleText("Paris, France");
+	selSSDD.selectByVisibleText("India");
 	Thread.sleep(1000);
 	
 // 	selSSDD.deselectByIndex(3); ===> UnsupportedOperationException: You may only deselect options of a multi-select
 	
 	//isMultiple() => to check whether the given dd is multi select or not
-	if(selSSDD.isMultiple()) {
-		selSSDD.deselectByIndex(3);
-	}
+//	if(selSSDD.isMultiple()) {
+//		selSSDD.deselectByIndex(3);
+//	}
 	
 	List<WebElement> opts = selSSDD.getOptions();
 	

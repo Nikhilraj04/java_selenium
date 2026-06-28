@@ -70,15 +70,7 @@ System.out.println("the position of the X "+ x + " and "+"the positon of the Y" 
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+System.out.println("--------------------------");
 
     driver.manage();
     driver.navigate();
